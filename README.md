@@ -1,4 +1,5 @@
 <include a CircleCI status badge, here>
+[![PASSED](https://dl.circleci.com/status-badge/img/gh/CFCIfe/udapeople-microsvc/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/CFCIfe/udapeople-microsvc/tree/main)
 
 ## Project Overview
 
@@ -42,9 +43,12 @@ source .devops/bin/activate
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
 
-### Kubernetes Steps
+### [Kubernetes Steps](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-linux)
 
-* Setup and Configure Docker locally
-* Setup and Configure Kubernetes locally
-* Create Flask app in Container
-* Run via kubectl
+* Setup and Configure Docker locally using this link: https://www.docker.com/products/docker-desktop
+
+* Setup and Configure Kubernetes locally here: https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+* 
+* Create Flask app in Container: `$ docker build -t my-python-app .`
+* 
+* Run via kubectl: `kubectl run udacity-microsvc --image=$dockerpath --port=80`
