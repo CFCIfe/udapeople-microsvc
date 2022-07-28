@@ -1,4 +1,3 @@
-<include a CircleCI status badge, here>
 [![PASSED](https://dl.circleci.com/status-badge/img/gh/CFCIfe/udapeople-microsvc/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/CFCIfe/udapeople-microsvc/tree/main)
 
 ## Project Overview
