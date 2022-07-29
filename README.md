@@ -47,7 +47,7 @@ source .devops/bin/activate
 * Setup and Configure Docker locally using this link: https://www.docker.com/products/docker-desktop
 
 * Setup and Configure Kubernetes locally here: https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
-* 
+
 * Create Flask app in Container: `$ docker build -t my-python-app .`
-* 
+
 * Run via kubectl: `kubectl run udacity-microsvc --image=$dockerpath --port=80`
